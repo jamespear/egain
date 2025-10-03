@@ -20,8 +20,8 @@ This project was created as part of the eGain SWE Take-Home Assignment for the C
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/egain-chatbot.git
-cd egain-chatbot
+git clone https://github.com/jamespear/egain.git
+cd egain
 ```
 
 2. **Run the chatbot**
@@ -29,7 +29,7 @@ cd egain-chatbot
 Make sure you have Python 3 installed.
 
 ```bash
-python3 wifi_chatbot.py
+python3 egain.py
 ```
 
 ---
@@ -53,18 +53,11 @@ The chatbot guides users through a decision tree:
 ---
 
 ## 🖼️ Screenshots
-
-> Add screenshots here after running your chatbot  
-> Example:
-
-```
-👋 Hi! I'm your Wi-Fi Troubleshooting Assistant.
-📶 Is your router plugged in and showing lights? (yes/no): yes
-🖥️ Are you using Wi-Fi or Ethernet? (wifi/ethernet): wifi
-📱 Can other devices connect to the Wi-Fi? (yes/no): no
-🔁 Have you tried rebooting your router? (yes/no): no
-🛠️ Please try unplugging the router for 30 seconds, then plug it back in.
-```
+### Possible response using chatbot
+![](images/1.png)
+### Handling error messages
+![](images/2.png)
+![](images/3.png)
 
 ---
 
@@ -81,3 +74,5 @@ The chatbot guides users through a decision tree:
 
 This repository was created for the eGain SWE Take-Home Assignment.  
 It demonstrates creativity, user-focused design, and error-resilient interaction in a minimal interface.
+
+Presentation link: https://docs.google.com/presentation/d/1YWUhtzaXqYHe4FJXeLdSIY-G6Qb1gH5Pr6EyFzrKXoA/edit?usp=sharing
